@@ -1,4 +1,4 @@
-FROM registry.centos.org/centos/centos
+FROM registry.centos.org/centos/centos:7
 
 # Install dependencies for mattermost-integration-gitlab
 RUN yum -y update && \
